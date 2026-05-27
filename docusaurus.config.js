@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Distribution-Guided Generative Adversarial Attack on LLM',
-  tagline: 'A curated homepage for seven papers on attack generation, jailbreaks, and evaluation.',
+  tagline: 'A project home page around Distribution-Guided Generative Adversarial Attack on LLM.（2024-2026）',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

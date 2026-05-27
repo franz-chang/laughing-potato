@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1030" viewBox="0 0 1180 1030" fill="none">
+  <rect x="1" y="1" width="1178" height="1028" rx="20" fill="#f7fbff" stroke="#c8d9ec"/>
+  <text x="40" y="52" fill="#111111" font-size="30" font-family="Arial, sans-serif" font-weight="700">University Institutions Appearing in the 7 Papers</text>
+  <rect x="40" y="96" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="155" r="24" fill="#0d3b66"/>
+  <text x="86" y="162" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">1</text>
+  <rect x="136" y="114" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/xjtlu.png" x="146" y="124" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="163" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">Xi'an Jiaotong-Liverpool University</text>
+  <rect x="40" y="230" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="289" r="24" fill="#0d3b66"/>
+  <text x="86" y="296" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">2</text>
+  <rect x="136" y="248" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/university_of_liverpool.svg" x="146" y="258" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="297" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">University of Liverpool</text>
+  <rect x="40" y="364" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="423" r="24" fill="#0d3b66"/>
+  <text x="86" y="430" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">3</text>
+  <rect x="136" y="382" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/rutgers.png" x="146" y="392" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="431" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">Rutgers University</text>
+  <rect x="40" y="498" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="557" r="24" fill="#0d3b66"/>
+  <text x="86" y="564" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">4</text>
+  <rect x="136" y="516" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/northwestern.svg" x="146" y="526" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="565" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">Northwestern University</text>
+  <rect x="40" y="632" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="691" r="24" fill="#0d3b66"/>
+  <text x="86" y="698" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">5</text>
+  <rect x="136" y="650" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/rit.svg" x="146" y="660" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="699" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">Rochester Institute of Technology</text>
+  <rect x="40" y="766" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="825" r="24" fill="#0d3b66"/>
+  <text x="86" y="832" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">6</text>
+  <rect x="136" y="784" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <image href="../logos/cuhk.png" x="146" y="794" width="400" height="62" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="833" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">The Chinese University of Hong Kong</text>
+  <rect x="40" y="900" width="1100" height="118" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <circle cx="86" cy="959" r="24" fill="#0d3b66"/>
+  <text x="86" y="966" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700">7</text>
+  <rect x="136" y="918" width="420" height="82" rx="10" fill="#f9fbff" stroke="#e1ebf5"/>
+  <rect x="144" y="926" width="404" height="66" rx="8" fill="#006747"/>
+  <image href="../logos/usf.svg" x="156" y="938" width="380" height="42" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="967" fill="#1f2a37" font-size="28" font-family="Arial, sans-serif">University of South Florida</text>
+</svg>

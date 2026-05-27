@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="430" viewBox="0 0 1180 430" fill="none">
+  <rect x="1" y="1" width="1178" height="428" rx="20" fill="#f7fbff" stroke="#c8d9ec"/>
+  <text x="40" y="48" fill="#111111" font-size="30" font-family="Arial, sans-serif" font-weight="700">
+    Institutions and Venues Appearing in This Collection
+  </text>
+
+  <rect x="40" y="84" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/xjtlu.png" x="64" y="108" width="292" height="78" preserveAspectRatio="xMidYMid meet"/>
+  <text x="210" y="212" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">Xi'an Jiaotong-Liverpool University</text>
+
+  <rect x="420" y="84" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/university_of_liverpool.svg" x="450" y="108" width="280" height="78" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="212" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">University of Liverpool</text>
+
+  <rect x="800" y="84" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/ieee.svg" x="866" y="113" width="208" height="68" preserveAspectRatio="xMidYMid meet"/>
+  <text x="970" y="212" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">IEEE</text>
+
+  <rect x="40" y="252" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/cuhk.png" x="66" y="278" width="288" height="72" preserveAspectRatio="xMidYMid meet"/>
+  <text x="210" y="380" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">The Chinese University of Hong Kong</text>
+
+  <rect x="420" y="252" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/acm-jdslogo.png" x="454" y="278" width="272" height="72" preserveAspectRatio="xMidYMid meet"/>
+  <text x="590" y="380" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">Association for Computing Machinery</text>
+
+  <rect x="800" y="252" width="340" height="142" rx="14" fill="#ffffff" stroke="#d5e3f2"/>
+  <image href="../logos/arxiv.svg" x="868" y="278" width="204" height="72" preserveAspectRatio="xMidYMid meet"/>
+  <text x="970" y="380" text-anchor="middle" fill="#1f2a37" font-size="17" font-family="Arial, sans-serif">arXiv</text>
+</svg>

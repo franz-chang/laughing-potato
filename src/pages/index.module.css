@@ -68,6 +68,7 @@
   display: grid;
   gap: 1.1rem;
   grid-template-columns: 1fr;
+  margin-bottom: 1.2rem;
 }
 
 .paperCard {
@@ -144,6 +145,76 @@
   border-color: #9c4716;
 }
 
+.institutionSection {
+  margin-top: 1.3rem;
+}
+
+.institutionHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.institutionLine {
+  flex: 1;
+  height: 1px;
+  background: rgba(14, 74, 124, 0.25);
+}
+
+.institutionTitle {
+  margin: 0;
+  white-space: nowrap;
+  font-size: 1.55rem;
+  color: #1f2a37;
+}
+
+.institutionGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem 1rem;
+}
+
+.institutionItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.institutionLogoWrap {
+  width: 100%;
+  max-width: 320px;
+  height: 130px;
+  border-radius: 10px;
+  border: 1px solid rgba(14, 74, 124, 0.18);
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.9rem;
+}
+
+.institutionLogoWrapDark {
+  background: #006747;
+  border-color: #006747;
+}
+
+.institutionLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.institutionName {
+  margin: 0.72rem 0 0;
+  color: #1f2a37;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
 .methodFigure {
   margin: 0;
   border-radius: 12px;
@@ -155,7 +226,7 @@
 .methodFigure img {
   width: 100%;
   height: 100%;
-  max-height: 230px;
+  max-height: 400px;
   object-fit: cover;
   display: block;
 }
@@ -169,8 +240,12 @@
     grid-template-columns: 1fr;
   }
 
+  .institutionGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .methodFigure img {
-    max-height: 270px;
+    max-height: 340px;
   }
 }
 
@@ -183,7 +258,31 @@
     font-size: 0.99rem;
   }
 
+  .institutionHeader {
+    gap: 0.55rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .institutionTitle {
+    font-size: 1.2rem;
+  }
+
+  .institutionGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 0.75rem;
+  }
+
+  .institutionLogoWrap {
+    height: 106px;
+    padding: 0.52rem 0.68rem;
+  }
+
+  .institutionName {
+    margin-top: 0.55rem;
+    font-size: 0.9rem;
+  }
+
   .methodFigure img {
-    max-height: 210px;
+    max-height: 260px;
   }
 }
