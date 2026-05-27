@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-github-username.github.io',
+  url: 'https://franz-chang.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/distribution-guided-generative-adversarial-attack-on-llm/',
+  baseUrl: '/laughing-potato/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-username', // Usually your GitHub org/user name.
-  projectName: 'distribution-guided-generative-adversarial-attack-on-llm', // Usually your repo name.
+  organizationName: 'franz-chang', // Usually your GitHub org/user name.
+  projectName: 'laughing-potato', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   trailingSlash: false,
