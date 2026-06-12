@@ -29,6 +29,8 @@ const paperList = [
     image: paper01Figure,
     description:
       'Abstract: This work introduces G2PIA, a query-free black-box prompt injection attack for LLMs. It formulates attack optimization as maximizing KL divergence between clean and injected prompts, and links this objective to representation-level distance changes. Experiments on seven LLMs and four datasets show effective attacks with low computational cost.',
+    authors:
+      'Chong Zhang, Mingyu Jin, Qinkai Yu, Chengzhi Liu, Haochen Xue, Xiaobo Jin',
   },
   {
     id: '02',
@@ -38,6 +40,8 @@ const paperList = [
     image: paper02Figure,
     description:
       "Abstract: This paper proposes a target-driven black-box attack that optimizes KL divergence between model outputs on clean and adversarial inputs. The method derives convex objectives for attack text and covariance estimation, then uses projected optimization with token manipulation and misinformation strategies. Results on multiple LLMs and datasets show consistent effectiveness.",
+    authors:
+      'Chong Zhang, Mingyu Jin, Dong Shu, Taowen Wang, Dongfang Liu, Xiaobo Jin',
   },
   {
     id: '03',
@@ -48,6 +52,8 @@ const paperList = [
     image: paper03Figure,
     description:
       'Abstract: This paper studies attacks on visible auto-prompt optimization and proposes Adaptive Greedy Local Search (AGLS) under black-box access. AGLS decomposes input hierarchically, masks key units, and updates candidates at semantic checkpoints to maximize output deviation while preserving meaning. Across commercial and open-source LLMs, it reports higher success under equal similarity constraints.',
+    authors:
+      'Chong Zhang, Xiang Li, Jia Wang, Shan Liang, Haochen Xue, Xiaobo Jin',
   },
   {
     id: '04',
@@ -58,6 +64,8 @@ const paperList = [
     image: paper04Figure,
     description:
       'Abstract: This work presents Adversarial Prompt Distillation, transferring jailbreak capability from large models to smaller language models (SLMs). By combining masked language modeling, reinforcement learning, and dynamic temperature control, it improves efficiency while retaining strong attack effectiveness. Experiments show competitive jailbreak success with lower deployment cost and better cross-model practicality.',
+    authors:
+      'Xiang Li, Chong Zhang, Jia Wang, Fangyu Wu, Yushi Li, Xiaobo Jin',
   },
   {
     id: '05',
@@ -68,6 +76,7 @@ const paperList = [
     local: true,
     description:
       'Abstract: Matrix-Poison is a self-evolving LLM agent for poisoning recommender systems through coordinated multi-account behaviors. It targets category-level manipulation and addresses vulnerability discovery, black-box planning, account collaboration, and stealthy self-correction. On real-world datasets, it outperforms prior baselines and shows strong cross-market portability.',
+    authors: 'Anonymous ACL submission',
   },
   {
     id: '06',
@@ -78,6 +87,8 @@ const paperList = [
     image: paper06Figure,
     description:
       "Abstract: AttackEval introduces coarse-grained and fine-grained metrics (0-1 scale) to evaluate jailbreak prompt effectiveness beyond binary success or failure. It also provides a dedicated ground-truth dataset for benchmarking harmful prompt strength. Compared with conventional evaluation, the framework offers more nuanced differentiation and better identification of subtly risky prompts.",
+    authors:
+      'Dong Shu, Chong Zhang, Mingyu Jin, Zihao Zhou, Lingyao Li, Yongfeng Zhang',
   },
   {
     id: '07',
@@ -87,6 +98,8 @@ const paperList = [
     image: paper07Figure,
     description:
       'Abstract: This survey reviews security risks in large vision-language models, including jailbreaks, backdoors, hallucinations, privacy leakage, and deployment reliability challenges. It summarizes current defenses and discusses legal and ethical issues in real applications. The paper also highlights open limitations and outlines priorities for safer future LVLM research.',
+    authors:
+      'Taowen Wang, Zheng Fang, Haochen Xue, Chong Zhang, Mingyu Jin, Wujiang Xu, Dong Shu, Shanchieh Yang, Zhenting Wang, Dongfang Liu',
   },
 ];
 
@@ -171,6 +184,9 @@ export default function Home() {
                       {paper.title}
                     </Heading>
                     <p className={styles.paperDesc}>{paper.description}</p>
+                    <p className={styles.paperAuthors}>
+                      <span>Authors:</span> {paper.authors}
+                    </p>
                     <a
                       className={styles.paperLink}
                       href={paper.url}

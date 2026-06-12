@@ -132,6 +132,18 @@
   line-height: 1.7;
 }
 
+.paperAuthors {
+  margin: 0;
+  color: #425466;
+  font-size: 0.86rem;
+  line-height: 1.55;
+}
+
+.paperAuthors span {
+  color: #0d3b66;
+  font-weight: 700;
+}
+
 .paperLink {
   width: fit-content;
   font-weight: 600;
