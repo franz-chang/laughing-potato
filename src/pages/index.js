@@ -76,7 +76,8 @@ const paperList = [
     local: true,
     description:
       'Abstract: Matrix-Poison is a self-evolving LLM agent for poisoning recommender systems through coordinated multi-account behaviors. It targets category-level manipulation and addresses vulnerability discovery, black-box planning, account collaboration, and stealthy self-correction. On real-world datasets, it outperforms prior baselines and shows strong cross-market portability.',
-    authors: 'Anonymous ACL submission',
+    authors:
+      'Chong Zhang, Hao Chen, Zhixiang Lu, Haichao Zhang, Chenke Yin, Peiyu Hu, Jia Wang',
   },
   {
     id: '06',
